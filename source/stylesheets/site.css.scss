@@ -1,24 +1,64 @@
-body {
-  background-color:#2D2B30;
-  color:#EDE7F4;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
+.navbar {
+margin-top: 10;
+background-color: white;
+color: white;
 }
 
 a {
   color: rgba(#000, 0.7);
-
-  &:focus,
+  padding-right: 130px;
+  &:focus
   &:hover {
-    color: rgba(#000, 0.6);
+    color: purple;
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  grid-template-areas:
+  "masthead"
+  "about_me"
+  "projects"
+  "contacts";
+}
+
+.masthead {
+  grid-area: masthead;
+  font-family: 'Butcherman', cursive;
+  padding: 210 220 220 400;
+  color: #A9A7B6;
+  min-height: 530px;
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/N13e7awhgiljgescq/alien-flying-in-space-ship-retro-cartoon-style-with-flat-design_b1idwi7vl_thumbnail-full15.png");
+}
+
+.h1 {
+  font-size: 40px;
+}
+.about_me {
+  grid-area: about_me;
+  background-color: #232223;
+  color: white;
+  min-height: 10px;
+}
+
+.projects {
+  grid-area: projects;
+  background-color: white;
+  color: black;
+}
+
+.contacts {
+  grid-area: contacts;
+  background-color: #232223;
+  color: white;
+}
+
+
+@media screen and (max-width: 400px) {
+  .about_me {
+    min-height: 1000;
+  }
 }
