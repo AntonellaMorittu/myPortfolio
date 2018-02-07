@@ -1,19 +1,20 @@
-%link{:rel => "“stylesheet”href=“https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css“"}
-%link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", :integrity => "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", :rel => "stylesheet"}
-%link{:href => "https://fonts.googleapis.com/css?family=Butcherman", :rel => "stylesheet"}
 .wrapper
   .masthead.d-flex
     %h1 ANTONELLA MORITTU
   .about_me
-    %h1
-      About me
-      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    %h1 About me
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   .projects
-    %h1
-      Projects
+    %h1 Projects
     - data.projects.each do |project|
-      %h4= project[:name]
-      %p= project[:description]
+      %div
+        %h4= project[:name]
+        %p= project[:description]
   .contacts
-    %h1
-      Contacts
+    %h1 Contact me
+    %a{:href => "https://github.com/AntonellaMorittu", :target => "_blank"}
+      %i.icon-git
+    %a{:href => "https://wordpress.com/start/about", :target => "_blank"}
+      %i.icon-wordpress
+    %a{:href => "mailto:morittuantonella@gmail.com?subject=Hi Antonella!", :target => "_blank"}
+      %i.icon-google-alt

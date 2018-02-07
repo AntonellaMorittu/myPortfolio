@@ -1,18 +1,10 @@
 .navbar {
-margin-top: 10;
-background-color: white;
-color: white;
+  margin-top: 10;
+  background-color: white;
+  color: #232223;
+  font-family: 'Butcherman', cursive;
+  letter-spacing: 5px;
 }
-
-a {
-  color: rgba(#000, 0.7);
-  padding-right: 130px;
-  &:focus
-  &:hover {
-    color: purple;
-  }
-}
-
 
 .wrapper {
   display: grid;
@@ -28,8 +20,9 @@ a {
 .masthead {
   grid-area: masthead;
   font-family: 'Butcherman', cursive;
-  padding: 210 220 220 400;
+  padding: 210 220 220 350;
   color: #A9A7B6;
+  letter-spacing: 3px;
   min-height: 530px;
   background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/N13e7awhgiljgescq/alien-flying-in-space-ship-retro-cartoon-style-with-flat-design_b1idwi7vl_thumbnail-full15.png");
 }
@@ -37,11 +30,13 @@ a {
 .h1 {
   font-size: 40px;
 }
+
 .about_me {
   grid-area: about_me;
   background-color: #232223;
   color: white;
   min-height: 10px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 .projects {
@@ -54,8 +49,26 @@ a {
   grid-area: contacts;
   background-color: #232223;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
+a {
+  color: white;
+  &:hover {
+    color: purple;
+  }
+}
+
+i {
+  font-size: 50px;
+}
+
+.projects,
+.about_me,
+.contacts {
+  padding: 5%;
+}
 
 @media screen and (max-width: 400px) {
   .about_me {

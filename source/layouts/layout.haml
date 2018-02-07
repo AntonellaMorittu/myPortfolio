@@ -1,19 +1,21 @@
 %html
   %head
     %link{:href => "https://use.fontawesome.com/releases/v5.0.6/css/all.css", :rel => "stylesheet"}
-    = partial 'partials/navbar'
-    %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", :integrity => "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", :rel => "stylesheet"}/
+    %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", :integrity => "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", :rel => "stylesheet"}
     %link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css")
+    %link{:href => "https://fonts.googleapis.com/css?family=Butcherman", :rel => "stylesheet"}
+    %link{:href => "https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed", :rel => "stylesheet"}
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %meta{:charset => "utf-8"}/
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
     / Use the title from a page's frontmatter if it has one
-    %title= current_page.data.title || "Welcome to myPortfolio"
+    %title= current_page.data.title || "Antonella's Orbit"
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
+
   %body
 
+  = partial 'partials/navbar'
   = yield
   = partial 'partials/footer'
-  = partial 'partials/navbar'
