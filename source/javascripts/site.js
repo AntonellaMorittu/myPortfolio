@@ -1,5 +1,7 @@
-$(document).on('click','.scrollToComment',function(){
-       $('html, body').animate({
-           scrollTop: $("#scroll_about_me").offset().top
-       }, 2000);
-   });
+$(document).ready(function() {
+    $("#about_me_nav").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#about_me_section").offset().top
+        }, 1000);
+    });
+});

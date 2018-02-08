@@ -17,38 +17,47 @@
   "contacts";
 }
 
-.masthead {
+.header {
   grid-area: masthead;
   font-family: 'Butcherman', cursive;
-  padding: 210 220 220 350;
-  color: #A9A7B6;
-  letter-spacing: 3px;
+  color: white;
+  letter-spacing: 5px;
   min-height: 530px;
-  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/N13e7awhgiljgescq/alien-flying-in-space-ship-retro-cartoon-style-with-flat-design_b1idwi7vl_thumbnail-full15.png");
-}
+  // padding: 280 200 200 330;
+  padding-top: 20%;
+  text-align: center;
+  background-image: url("https://photos-1.dropbox.com/t/2/AADbgjQK4C6aowG_34TloFVV6-JzLKcZu1SljivJbQ6VXQ/12/172622542/png/32x32/3/1518109200/0/2/Antonellas%20orbit.png/EMXTwIMBGKECIAcoBw/SUqmfrd5_T2owJS_-bKt8ATJJXaVtM--EfcOTBLAA9w?dl=0&preserve_transparency=1&size=1280x960&size_mode=3");
 
-.h1 {
-  font-size: 40px;
+  h1 {
+  font-size: 50px;
+  }
+
+  p {
+  font-size: 25px;
+  }
 }
 
 .about_me {
   grid-area: about_me;
   background-color: #232223;
   color: white;
-  min-height: 10px;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;}
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 530px;
+}
 
-.img-thumbnail{
+.img-thumbnail {
   border-radius: 50%;
-  height: 130px;
-  margin-bottom: 20px;
-  text-align: right
+  height: 200px;
+  align-items: right;
 }
 
 .projects {
   grid-area: projects;
   background-color: white;
   color: black;
+  min-height: 530px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
@@ -58,6 +67,7 @@
   color: white;
   display: flex;
   justify-content: space-between;
+  min-height: 200px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 

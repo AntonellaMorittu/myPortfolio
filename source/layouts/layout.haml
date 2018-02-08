@@ -1,7 +1,6 @@
 %html
   %head
     %script{:src => "https://code.jquery.com/jquery-2.1.4.js"}
-    %script{:src => "javascripts/site.js"}
     %link{:href => "https://use.fontawesome.com/releases/v5.0.6/css/all.css", :rel => "stylesheet"}
     %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", :integrity => "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", :rel => "stylesheet"}
     %link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css")
@@ -12,6 +11,7 @@
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
     / Use the title from a page's frontmatter if it has one
+    %link{:href => "https://photos-2.dropbox.com/t/2/AACU_nDVmvpI3Lv1ABiBrw3oyLCKzqq8bzHYaAzRakAjJw/12/172622542/png/32x32/3/1518109200/0/2/Planet.png/EMXTwIMBGKECIAcoBw/v5D-gxg8CyKYt9dRlb0izSJk81lOe-DHL4nk-3vC2qg?dl=0&preserve_transparency=1&size=1280x960&size_mode=3", :rel => "shortcut icon", :type => "image/x-icon"}
     %title= current_page.data.title || "Antonella's Orbit"
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
