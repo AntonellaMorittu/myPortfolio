@@ -19,21 +19,23 @@
 
 .header {
   grid-area: masthead;
-  font-family: 'Butcherman', cursive;
   color: white;
   letter-spacing: 5px;
   min-height: 530px;
   // padding: 280 200 200 330;
-  padding-top: 20%;
+  padding-top: 15%;
   text-align: center;
   background-image: url("https://photos-1.dropbox.com/t/2/AADbgjQK4C6aowG_34TloFVV6-JzLKcZu1SljivJbQ6VXQ/12/172622542/png/32x32/3/1518109200/0/2/Antonellas%20orbit.png/EMXTwIMBGKECIAcoBw/SUqmfrd5_T2owJS_-bKt8ATJJXaVtM--EfcOTBLAA9w?dl=0&preserve_transparency=1&size=1280x960&size_mode=3");
 
   h1 {
+  font-family: 'Butcherman', cursive;
   font-size: 50px;
   }
 
   p {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-size: 25px;
+  color: #F5EEF8;
   }
 }
 
@@ -45,11 +47,28 @@
   display: grid;
   grid-template-columns: 50% 50%;
   min-height: 530px;
+
+  h1 {
+  padding-top: 10%;
+  text-align: left;
+  letter-spacing: 5px;
+  }
+
+  p {
+  font-size: 25px;
+  color: #F5EEF8;
+  }
 }
+
 
 .img-thumbnail {
   border-radius: 50%;
   height: 200px;
+  align-items: right;
+}
+
+.img-thumbnail_2 {
+  border-radius: 1%;
   align-items: right;
 }
 
@@ -59,7 +78,14 @@
   color: black;
   min-height: 530px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
-}
+  padding-top: 10%;
+  text-align: left;
+  letter-spacing: 5px;
+
+  a {
+    color: black;
+   }
+  }
 
 .contacts {
   grid-area: contacts;
@@ -67,12 +93,16 @@
   color: white;
   display: flex;
   justify-content: space-between;
-  min-height: 200px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
-a {
+.img-spaceship{
+  text-align: left;
+  height:110px;
+  margin: 0;
+}
 
+a {
   color: white;
   &:hover {
     color: purple;
@@ -108,4 +138,10 @@ btn {
   .about_me {
     min-height: 1000;
   }
+}
+
+footer {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #232223;
+  font-size: 25px;
 }
