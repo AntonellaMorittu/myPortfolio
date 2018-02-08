@@ -1,29 +1,27 @@
 ---
-- name: ✭ My First Website
+- name: My First Website
   description: Simple HTML5 site build during the Prep-Course
   url: https://github.com/AntonellaMorittu/KillrQueen.github.io
-  image: <img class="caption__media" data-interchange="[https://photos-4.dropbox.com/t/2/AABS7Xc2flMvcKGbvex6q8VHOuTGUYmc5OgLE4r9JxiWxA/12/172622542/png/32x32/3/1518127200/0/2/Antonellas%20orbit%20page%20icon.png/EMXTwIMBGKYCIAcoBw/KUqzqEZfQMoaxNH_uMgdoTQKxo16SIsJPmj2IupQSXQ?dl=0&preserve_transparency=1&size=1280x960&size_mode=3]
-- name: ✭ FizzBuzz
+- name: FizzBuzz
   description: My first Test driven Ruby project
   url: https://github.com/AntonellaMorittu/FizzBuzz
-  logo: 'starship'
-- name: ✭ ATM Machine
+
+- name: ATM Machine
   description: My first Ruby Project build in pair-programming
   url: https://github.com/AntonellaMorittu/ATM-Challenge
-  logo: 'starship'
-- name: ✭ Interactive Library
+
+- name: Interactive Library
   description: Another Ruby project with Yaml integration
   url: https://github.com/AntonellaMorittu/library-challenge
-  logo: 'starship'
-- name: ✭ BMI Calculator
+
+- name: BMI Calculator
   description: Interactive tool built with JavaScript and JQuery, tested with Jasmine
   url: https://github.com/AntonellaMorittu/BMI-Challenge
-  logo: 'starship'
-- name: ✭ Cooper Test
+
+- name: Cooper Test
   description: Funny tool written in Javascript, useful to assess your aerobic endurance
   url: https://github.com/AntonellaMorittu/CooperTest
-  logo: 'starship'
-- name: ✭ My Portfolio
+
+- name: My Portfolio
   description: My Week 3 individual challenge, developed with Middleman and JS
   url: https://github.com/AntonellaMorittu/myPortfolio
-  logo: 'starship'

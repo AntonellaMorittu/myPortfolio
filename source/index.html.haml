@@ -20,5 +20,6 @@
     %h1 Projects
     - data.projects.each do |project|
       %div
-        %a{href: project[:url]}= project[:name]
+        %img{:alt => "responsive image", :src => "https://photos-4.dropbox.com/t/2/AABS7Xc2flMvcKGbvex6q8VHOuTGUYmc5OgLE4r9JxiWxA/12/172622542/png/32x32/3/1518127200/0/2/Antonellas%20orbit%20page%20icon.png/EMXTwIMBGKYCIAcoBw/KUqzqEZfQMoaxNH_uMgdoTQKxo16SIsJPmj2IupQSXQ?dl=0&preserve_transparency=1&size=1280x960&size_mode=3"}
+        %a{href: project[:url], :target => "_blank"}= project[:name]
         %p= project[:description]

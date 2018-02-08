@@ -58,6 +58,7 @@
   p {
   font-size: 25px;
   color: #F5EEF8;
+  letter-spacing: 1px;
   }
 
   .about_images {
@@ -89,23 +90,21 @@
 
 .projects {
   grid-area: projects;
-  background-color: white;
-  color: black;
+  color: white;
   min-height: 530px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   padding-top: 10%;
   text-align: left;
   letter-spacing: 5px;
+  font-size: 25px;
 
-  a {
-    color: black;
-   }
   }
 
 a {
   color: white;
   &:hover {
     color: purple;
+    text-decoration: none;
   }
 }
 
@@ -131,6 +130,7 @@ btn {
 .projects,
 .about_me {
   padding: 5%;
+  background-image: url("https://photos-2.dropbox.com/t/2/AACzzOaHqA0IbMRBLhzYAIE2sZ9jddH_6B_SqRYwmjqIBA/12/172622542/png/32x32/3/1518141600/0/2/space%20with%20black.png/EMXTwIMBGKgCIAcoBw/JoQ7vhXJ7LxZ7bkm-EJ9ie7ax7_2hmZzeq-t1CMUXus?dl=0&preserve_transparency=1&size=1280x960&size_mode=3");
 }
 
 @media screen and (max-width: 400px) {
