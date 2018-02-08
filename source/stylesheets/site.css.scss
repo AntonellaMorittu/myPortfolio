@@ -36,9 +36,14 @@
   background-color: #232223;
   color: white;
   min-height: 10px;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-}
+  font-family: 'Fira Sans Extra Condensed', sans-serif;}
 
+.img-thumbnail{
+  border-radius: 50%;
+  height: 130px;
+  margin-bottom: 20px;
+  text-align: right
+}
 
 .projects {
   grid-area: projects;
