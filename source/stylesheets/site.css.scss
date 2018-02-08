@@ -1,5 +1,5 @@
 .navbar {
-  margin-top: 10;
+  margin-top: 0;
   background-color: white;
   color: #232223;
   font-family: 'Butcherman', cursive;
@@ -39,10 +39,12 @@
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
+
 .projects {
   grid-area: projects;
   background-color: white;
   color: black;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 .contacts {
@@ -51,9 +53,11 @@
   color: white;
   display: flex;
   justify-content: space-between;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 a {
+
   color: white;
   &:hover {
     color: purple;
@@ -62,7 +66,22 @@ a {
 
 i {
   font-size: 50px;
+  letter-spacing: 80px;
 }
+
+btn {
+  color: #232223;
+  font-size: 17px;
+  letter-spacing: 10px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color: #232223;
+    &:hover {
+      color: purple;
+    }
+  }
 
 .projects,
 .about_me,
