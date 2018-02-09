@@ -12,9 +12,8 @@ describe 'Index Page', type: :feature do
     visit '/'
     expect(page).to have_selector 'footer'
     within 'footer' do
-      expect(page).to have_content 'My Portfolio'
-      expect(page).to have_content 'Built using the awesome Middleman framework'
+      expect(page).to have_content 'Copyright © 2018 Antonella Morittu'
     end
   end
-  
+
 end
