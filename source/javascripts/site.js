@@ -10,6 +10,12 @@ $(document).ready(function() {
             scrollTop: $("#projects_section").offset().top
         }, 1000);
     });
+    
+    $("#cv_nav").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#cv_section").offset().top
+        }, 1000);
+    });
 
     $("#contacts_nav").click(function() {
         $('html, body').animate({

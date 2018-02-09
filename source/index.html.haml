@@ -23,3 +23,18 @@
         %img{:alt => "responsive image", :src => "images/Antonellas_orbit_page_icon.png"}
         %a{href: project[:url], :target => "_blank"}= project[:name]
         %p= project[:description]
+
+  .cv#cv_section
+    .education
+      -# %a#education
+      %h1 My Curriculum Vitae
+      %h2 EDUCATION
+      - data.education.each do |education|
+        %div
+          %h3.padding= education[:school]
+          %h5= education[:course]
+          -# %img{:alt => "responsive image", :src => "images/Antonellas_orbit_page_icon.png"}
+          %a{href: education[:url], :target => "_blank"}= education[:name]
+          %p= education[:description]
+          %p= education[:second]
+          %p= education[:third]
