@@ -26,11 +26,13 @@
   grid-area: masthead;
   color: white;
   letter-spacing: 5px;
-  min-height: 660px;
+  min-height: 837px;
   padding-top: 15%;
   text-align: center;
   background-image: url('../images/Antonellas_orbit.png');
   background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: black;
 
   h1 {
   font-family: 'Butcherman', cursive;
@@ -163,7 +165,7 @@ btn {
   background-size: 100% auto;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .about_me {
     min-height: 1000;
   }
