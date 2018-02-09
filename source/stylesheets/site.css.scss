@@ -27,10 +27,10 @@
   color: white;
   letter-spacing: 5px;
   min-height: 660px;
-  // padding: 280 200 200 330;
   padding-top: 15%;
   text-align: center;
-  background-image: url("https://photos-1.dropbox.com/t/2/AADbgjQK4C6aowG_34TloFVV6-JzLKcZu1SljivJbQ6VXQ/12/172622542/png/32x32/3/1518109200/0/2/Antonellas%20orbit.png/EMXTwIMBGKECIAcoBw/SUqmfrd5_T2owJS_-bKt8ATJJXaVtM--EfcOTBLAA9w?dl=0&preserve_transparency=1&size=1280x960&size_mode=3");
+  background-image: url('../images/Antonellas orbit.png');
+  background-size: 100% auto;
 
   h1 {
   font-family: 'Butcherman', cursive;
@@ -159,7 +159,8 @@ btn {
 .projects,
 .about_me {
   padding: 5%;
-  background-image: url("https://photos-2.dropbox.com/t/2/AACzzOaHqA0IbMRBLhzYAIE2sZ9jddH_6B_SqRYwmjqIBA/12/172622542/png/32x32/3/1518141600/0/2/space%20with%20black.png/EMXTwIMBGKgCIAcoBw/JoQ7vhXJ7LxZ7bkm-EJ9ie7ax7_2hmZzeq-t1CMUXus?dl=0&preserve_transparency=1&size=1280x960&size_mode=3");
+  background-image: url('../images/space with black.png');
+  background-size: 100% auto;
 }
 
 @media screen and (max-width: 400px) {
