@@ -13,13 +13,13 @@
 
     %div.about_images
       %img.profile_pic{:alt => "responsive image", :src => "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAMAAgDuAAgAAQAAAAAAABCeAAAAJDdkMzRmY2Q4LTgwMjktNDFhNC1iMDUzLWVhMTBlM2Q0NmNiMA.bin"}
-      %img.moon{:alt => "responsive image", :src => "source/images/Planet.png"}
+      %img.moon{:alt => "responsive image", :src => "images/Planet.png"}
 
   .projects#projects_section
     %a#projects
     %h1 Projects
     - data.projects.each do |project|
       %div
-        %img{:alt => "responsive image", :src => "source/images/Antonellas_orbit_page_icon.png"}
+        %img{:alt => "responsive image", :src => "images/Antonellas_orbit_page_icon.png"}
         %a{href: project[:url], :target => "_blank"}= project[:name]
         %p= project[:description]
