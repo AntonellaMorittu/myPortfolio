@@ -155,6 +155,19 @@
 
   }
 
+.work {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: projects;
+  color: white;
+  min-height: 530px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  padding-top: 10%;
+  text-align: left;
+  letter-spacing: 5px;
+  font-size: 25px;
+
+  }
 a {
   color: white;
   &:hover {

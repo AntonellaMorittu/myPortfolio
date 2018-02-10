@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     $("#skills_nav").click(function() {
         $('html, body').animate({
-            scrollTop: $("#skills_section").offset().top - 40
+            scrollTop: $("#skills_section").offset().top - 70
         }, 1000);
     });
 

@@ -2,25 +2,38 @@
   dates: 2016 - 2017
   role: Recruitment Consultant
   role2:
-  description: Top Biller Recruiter (EU Nurses) in one of the leading provider of temporary and permanent health and social care professionals to the public and private sectors, dealing with an extremely high volumes of nurses applicants from all over Europe ◮ Promote vacancies and post ads in job boards and social media ◮ Run the selection process ◮ Pre-screen, select and prefer top-notch professional nurses, guide them in the recruitment process towards the beginning of a new career in the British Health Care System ◮ Support for the candidates while getting ready for the interview ◮ Psychological support to reinforce candidates motivation during the whole induction process
-  skills: ✮ Attention to details, reliability, ability to meet deadline and deliver quickly
+  description1: ◮ Promote vacancies and post ads in job boards and social media
+  description2: ◮ Run the selection process
+  description3: ◮ Pre-screen, select and prefer top-notch professional nurses, guide them in the recruitment process towards the beginning of a new career in the British Health Care System
+  description4: ◮ Psychological support to reinforce candidates motivation during the whole induction process
+  skills: ✮ Attention to details ✮ Reliability ✮ Ability to meet deadline and deliver quickly
 - company: ⧨ Yachting Industry (IT, FR)
   dates: 2013 - 2015
   role: Planner, Organisation Dept.
   role2: Stewardess on-board
-  description: 24/7 assistance to International Clients not familiar with the local territory ◮ VIP Concierge services including the organization of events on-board ◮ Arrangement of custom-made itineraries and excursions all over Sardinia, hotel and restaurant reservations, any kind of travel arrangements ◮ Complaint handling
-  skills: ✮ Flexibility, ability to cope with high level of stress, exceptional ability to adapt to multicultural environment
+  description1: ◮ 24/7 assistance to International Clients not familiar with the local territory
+  description2: ◮ VIP Concierge services including the organization of events on-board
+  description3: ◮ Arrangement of custom-made itineraries and excursions all over Sardinia, hotel and restaurant reservations, any kind of travel arrangements
+  description4: ◮ Complaint handling
+  skills: ✮ Flexibility ✮ Ability to cope with high level of stress ✮ Wxceptional ability to adapt to multicultural environment
 - company: ⧨ HP Hewlett-Packard (PL)
-  dates: 2014 - 2014
+  dates: 2014
   role: HR Administrator Specialist
   role2:
-  description: IT Leader corporation in business services sector (Business Process Outsourcing) ◮ Update and maintain employee records in compliance with regulations ◮ Advanced courses attended for usage of Office Package
-  skills: ✮ Strong team spirit, excellent command of Microsoft OfficeTM tools (WordTM, ExcelTM, PowerPointTMOutlookTM)
+  description1: ◮ IT Leader corporation in business services sector (Business Process Outsourcing)
+  description2: ◮ Update and maintain employee records in compliance with regulations
+  description3: ◮ Advanced courses attended for usage of Office Package
+  skills: ✮ Strong team spirit ✮ E xcellent command of Microsoft OfficeTM tools (WordTM, ExcelTM, PowerPointTMOutlookTM)
 - company: ⧨ British International School (UK)
-  dates: 2012 -
+  dates: 2012
   role: Group Coordinator
-  description: ◮ School of English offering holiday-study packages for the International Students ◮ Orientation for students, phone calls and e-mail handling ◮ Arrangement of English course packages, including travel and accommodation, leisure and cultural activities in and outside London
-  skills: ✮ Organisation, ability to prioritise tasks, listen to students needs to support them
+  description1: ◮ School of English offering holiday/study packages for the international students
+  description2: ◮ Orientation for students, phone calls and e-mail handling
+  description3: ◮ Arrangement of English course packages, including travel and accommodation, leisure and cultural activities in and outside London
+  skills: ✮ Organisation ✮ Ability to prioritise tasks ✮ Listen to students needs to support them
 - company: ⧨ Certificates
   dates: 2014
-  description: First aid, fire fighting & social responsibilities certificate
+  description1: First aid, fire fighting & social responsibilities certificate
+- company: ⧨ Languages Spoken
+  dates:
+  description1: ◮ ITALIAN (native)  ◮ ENGLISH (C2)  ◮ FRENCH (B2)  ◮ SWEDISH (A1)
