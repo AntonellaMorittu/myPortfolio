@@ -16,7 +16,7 @@
 
 - name: BMI Calculator
   description: Interactive tool built with JavaScript and JQuery, tested with Jasmine
-  url: https://github.com/AntonellaMorittu/BMI-Challenge
+  url: https://antonellamorittu.github.io/BMI-Challenge
 
 - name: Cooper Test
   description: Funny tool written in Javascript, useful to assess your aerobic endurance

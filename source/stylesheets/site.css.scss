@@ -131,13 +131,13 @@
 
   }
 
-a {
-  color: white;
-  &:hover {
-    color: purple;
-    text-decoration: none;
+.skills {
+  background-image: url('../images/space_with_black.png');
+  color: #B999F5;
+  padding: 8%;
+  max-height: 15px;
   }
-}
+
 
 .education {
   -ms-grid-row: 3;
