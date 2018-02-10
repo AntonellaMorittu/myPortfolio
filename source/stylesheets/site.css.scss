@@ -131,8 +131,19 @@
   letter-spacing: 5px;
   font-size: 25px;
 
+  h1 {
+    padding-bottom: 30px;
   }
+}
 
+.h2, h2 {
+  padding-bottom: 60px;
+  letter-spacing: 8px;
+  padding-bottom: 35px;
+  letter-spacing: 8px;
+  font-style: italic;
+  color: #B999F5;
+}
 .skills {
   background-image: url('../images/space_with_black.png');
   color: #B999F5;
@@ -153,7 +164,22 @@
   letter-spacing: 5px;
   font-size: 25px;
 
+  a {
+    font-size: 35px;
   }
+
+  h1 {
+    color: white;
+    padding-bottom: 30px;
+  }
+
+}
+
+.h3, h3 {
+  font-size: 35px;
+  color: #B999F5;
+
+}
 
 .work {
   -ms-grid-row: 3;
