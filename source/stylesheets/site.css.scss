@@ -31,7 +31,7 @@
   min-height: 837px;
   padding-top: 15%;
   text-align: center;
-  background-image: url('../images/Antonellas_orbit.png');
+  background-image: url('../images/Antonellas_orbit_stars.png');
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: black;
@@ -171,8 +171,23 @@
   h1 {
     color: white;
     padding-bottom: 30px;
+    padding-top: 30px;
   }
 
+  img {
+    width: 150px;
+    -webkit-transition: -webkit-transform 3s;
+    transition: -webkit-transform 3s;
+    -o-transition: transform 3s;
+    transition: transform 3s;
+    transition: transform 3s, -webkit-transform 3s;
+
+    &:hover {
+      -webkit-transform: scale(1.3);
+          -ms-transform: scale(1.3);
+              transform: scale(1.3);
+    }
+  }
 }
 
 .h3, h3 {
