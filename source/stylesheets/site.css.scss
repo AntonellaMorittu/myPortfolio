@@ -1,4 +1,5 @@
 .navbar {
+  z-index: 2;
   margin-top: 0;
   background-color: white;
   color: #232223;
@@ -102,6 +103,7 @@
 }
 
 .moon {
+  z-index: 1;
   border-radius: 1%;
   -webkit-box-align: right;
       -ms-flex-align: right;
@@ -246,7 +248,7 @@ btn {
 
 @media screen and (max-width: 500px) {
   .about_me {
-    min-height: 1000;
+    min-height: 100;
   }
 }
 
