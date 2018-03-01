@@ -344,4 +344,33 @@ footer {
   .icon-right {
     flex-direction: column;
   }
+
+  .skills {
+    padding: 11%;
+    margin-bottom: 40px;
+    text-align: justify;
+
+    i {
+      font-size: 39px;
+      letter-spacing: 30px;
+    }
+  }
+
+  .education h1 {
+    padding-top: 40px;
+    display: inline-block
+  }
+
+  footer .contacts .icon-rigth
+  
+    h1 {
+      margin-bottom: 2.5rem;
+    }
+
+  .icon-google-alt:before,
+  .icon-git:before,
+  .icon-wordpress:before  {
+    font-size: 30;
+
+  }
 }
