@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .navbar {
   z-index: 2;
   margin-top: 0;
@@ -146,6 +150,7 @@
   font-style: italic;
   color: #B999F5;
 }
+
 .skills {
   background-image: url('../images/space_with_black.png');
   color: #B999F5;
@@ -193,7 +198,7 @@
 }
 
 .h3, h3 {
-  font-size: 35px;
+  font-size: 30px;
   color: #B999F5;
 
 }
@@ -244,12 +249,6 @@ btn {
   padding: 5%;
   background-image: url('../images/space_with_black.png');
   background-size: 100% auto;
-}
-
-@media screen and (max-width: 500px) {
-  .about_me {
-    min-height: 100;
-  }
 }
 
 footer {
@@ -321,5 +320,28 @@ footer {
     font-size: 14px;
     text-align: right;
     padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  .about_me {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .moon {
+    display: none;
+  }
+
+  .header {
+    min-height: 550px;
+
+    h1 {
+      margin-top: 180px;
+    }
+  }
+
+  .icon-right {
+    flex-direction: column;
   }
 }
