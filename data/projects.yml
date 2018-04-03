@@ -25,3 +25,15 @@
 - name: My Portfolio
   description: My Week 3 individual challenge, developed with Middleman and JS
   url: https://github.com/AntonellaMorittu/myPortfolio
+
+- name: Legacy Code
+  description: Project based on writing Unit and Acceptance Tests to cover a Legacy Code
+  url: https://github.com/AntonellaMorittu/rails_messaging_wookies/commits/master
+
+- name: BMI Mobile App
+  description: My first Mobile App built with Ionic (visible using the Ionic View App code a3cca305)
+  url: https://github.com/AntonellaMorittu/BMI-Ionic
+
+- name: Cooper Mobile App
+  description: App developed with ionic to build the client side and Ruby on Rails API as back-end, chart implemented with AngularAPI (Ionic View App code 82ce2c06)
+  url: https://github.com/AntonellaMorittu/BMI-Ionic
