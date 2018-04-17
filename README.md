@@ -2,9 +2,8 @@ My Portfolio Page
 ===
 
 Antonella's Orbit is a static website built with Middleman, a Ruby Framework and deployed with GitHub.
-nd take flight into the world software development. Okay, peacocks can't fly, but you get the point - your portfolio will give you a place to work and show off your coding projects!
 
-**Techologies used** 
+**Technologies used**
 ===
 
 * Ruby
@@ -16,7 +15,7 @@ nd take flight into the world software development. Okay, peacocks can't fly, bu
 **Styling libraries and toolkits**
 ===
 
-* Bootstrap 
+* Bootstrap
 * GoogleFonts
 * FontAwesome
 
