@@ -37,3 +37,7 @@
 - name: Cooper Mobile App
   description: App developed with ionic to build the client side and Ruby on Rails API as back-end, chart implemented with AngularAPI (Ionic View App code 82ce2c06)
   url: https://github.com/AntonellaMorittu/BMI-Ionic
+
+- name: Languaship 
+  description: Language learning by exchange! App developed with ionic to build the client side and Ruby on Rails API as back-end
+  url: https://github.com/AntonellaMorittu/languaship_mobile
