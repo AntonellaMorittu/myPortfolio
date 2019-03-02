@@ -7,19 +7,19 @@ $(document).ready(function() {
 
     $("#projects_nav").click(function() {
         $('html, body').animate({
-            scrollTop: $("#projects_section").offset().top - 80
+            scrollTop: $("#projects_section").offset().top - 150
         }, 1000);
     });
 
     $("#skills_nav").click(function() {
         $('html, body').animate({
-            scrollTop: $("#skills_section").offset().top - 70
+            scrollTop: $("#skills_section").offset().top - 150
         }, 1000);
     });
 
     $("#cv_nav").click(function() {
         $('html, body').animate({
-            scrollTop: $("#cv_section").offset().top + 20
+            scrollTop: $("#cv_section").offset().top - 15
         }, 1000);
     });
 

@@ -1,8 +1,9 @@
 %html
   %head
     %script{:src => "https://code.jquery.com/jquery-2.1.4.js"}
+    %script{:crossorigin => "anonymous", :integrity => "sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm", :src => "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"}
+    %link{:crossorigin => "anonymous", :href => "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css", :integrity => "sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4", :rel => "stylesheet"}
     %link{:href => "https://use.fontawesome.com/releases/v5.0.6/css/all.css", :rel => "stylesheet"}
-    %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", :integrity => "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", :rel => "stylesheet"}
     %link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css")
     %link{:href => "https://fonts.googleapis.com/css?family=Butcherman", :rel => "stylesheet"}
     %link{:href => "https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed", :rel => "stylesheet"}
@@ -10,7 +11,6 @@
     %meta{:charset => "utf-8"}/
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
-    / Use the title from a page's frontmatter if it has one
     %link{:href => "images/Antonellas_orbit_page_icon.png", :rel => "shortcut icon", :type => "image/x-icon"}
     %title= current_page.data.title || "Antonella's Orbit"
     = stylesheet_link_tag "site"

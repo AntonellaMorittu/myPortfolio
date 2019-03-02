@@ -8,7 +8,7 @@
     %div
       %a#about_me
       %h1 About me
-      %p I'm Antonella, an Italian junior web developer based in Gothenburg, Sweden.
+      %p I'm Antonella, an Italian Web Developer based in Gothenburg, Sweden.
       %p I am an inquisitive and curious individual. I was probably a cat in another life.
       %p IF ART IS CREATIVITY, CODING IS PURE CREATION ☁
 
@@ -21,9 +21,10 @@
     %h1 Projects
     - data.projects.each do |project|
       %div
-        %img{:alt => "responsive image", :src => "images/Antonellas_orbit_page_icon.png"}
+        %h2= project[:date]
         %a{href: project[:url], :target => "_blank"}= project[:name]
         %p= project[:description]
+        %p= project[:description2]
 
   .skills#skills_section
     %div
@@ -55,11 +56,10 @@
       %h2 PROFESSIONAL EXPERIENCE
       - data.work.each do |work|
         %div
-          %h3.padding= work[:company]
+          %a.padding= work[:company]
+          %h4= work[:location]
           %h3= work[:role]
           %p= work[:dates]
           %p= work[:description1]
           %p= work[:description2]
-          %p= work[:description3]
-          %p= work[:description4]
-          %p= work[:skills]
+   

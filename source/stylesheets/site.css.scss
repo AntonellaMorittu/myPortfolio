@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.936);
 }
 
 .navbar {
@@ -8,14 +8,34 @@ body {
   background-color: white;
   color: #232223;
   font-family: 'Butcherman', cursive;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   position: sticky;
   top: 0;
 }
 
+@media only screen and (min-width: 992px) {
+  .navbar {
+    letter-spacing: 5px;
+    position: sticky;
+    top: 0;
+    padding: 1.5em;
+  }
+
+  .nav-link {
+    padding: 1em;
+  }
+}
+
+.nav-link {
+  padding: 0.6em 1em 0 1em;
+}
+
+.nav-link:first-of-type {
+  padding: 0;
+}
+
 .wrapper {
   display: -ms-grid;
-  display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
   -ms-grid-rows: 100%;
@@ -32,24 +52,42 @@ body {
   -ms-grid-column: 1;
   grid-area: masthead;
   color: white;
-  letter-spacing: 5px;
-  min-height: 837px;
-  padding-top: 15%;
+  letter-spacing: 4px;
+  padding-top: 16em;
+  min-height: 400px;
   text-align: center;
   background-image: url('../images/Antonellas_orbit_stars.png');
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: black;
 
   h1 {
-  font-family: 'Butcherman', cursive;
-  font-size: 50px;
+    font-family: 'Butcherman', cursive;
+    font-size: 25px;
   }
 
   p {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-size: 25px;
-  color: #F5EEF8;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 20px;
+    color: #F5EEF8;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    letter-spacing: 5px;
+    padding-top: 15em;
+    min-height: 1000px;
+
+    h1 {
+    font-family: 'Butcherman', cursive;
+    font-size: 50px;
+    }
+
+    p {
+      font-family: 'Fira Sans Extra Condensed', sans-serif;
+      font-size: 25px;
+      color: #F5EEF8;
+    }
   }
 }
 
@@ -63,20 +101,22 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
   min-height: 530px;
   overflow: hidden;
 
   h1 {
-  padding-top: 45%;
-  text-align: left;
-  letter-spacing: 5px;
+    padding-top: 1em;
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 25px;
   }
 
   p {
-  font-size: 25px;
-  color: #F5EEF8;
-  letter-spacing: 1px;
+    font-size: 15px;
+    color: #F5EEF8;
+    letter-spacing: 1px;
+    
   }
 
   .about_images {
@@ -86,23 +126,60 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .about_me {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: about_me;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+    min-height: 530px;
+    overflow: hidden;
+  
+    h1 {
+      font-size: 2.5rem;
+      padding-top: 45%;
+      text-align: left;
+      letter-spacing: 5px;
+    }
+  
+    p {
+      font-size: 25px;
+      color: #F5EEF8;
+      letter-spacing: 1px;
+    }
+  
+    .about_images {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+}
 
 .profile_pic {
   border-radius: 50%;
   height: 200px;
-  -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
-  -webkit-transition: -webkit-transform 3s;
-  transition: -webkit-transform 3s;
-  -o-transition: transform 3s;
-  transition: transform 3s;
-  transition: transform 3s, -webkit-transform 3s;
+}
 
-  &:hover {
-    -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-            transform: scale(1.3);
+@media only screen and (min-width: 992px) {
+  .profile_pic {
+     -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
+    -webkit-transition: -webkit-transform 3s;
+    transition: -webkit-transform 3s;
+    -o-transition: transform 3s;
+    transition: transform 3s;
+    transition: transform 3s, -webkit-transform 3s;
+  
+    &:hover {
+      -webkit-transform: scale(1.3);
+          -ms-transform: scale(1.3);
+              transform: scale(1.3);
+    }
   }
 }
 
@@ -125,39 +202,34 @@ body {
   }
 }
 
-.projects {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: projects;
-  color: white;
-  min-height: 530px;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  padding-top: 10%;
-  text-align: left;
-  letter-spacing: 5px;
-  font-size: 25px;
-
-  h1 {
-    padding-bottom: 30px;
-  }
-}
-
-.h2, h2 {
-  padding-bottom: 60px;
-  letter-spacing: 8px;
-  padding-bottom: 35px;
-  letter-spacing: 8px;
-  font-style: italic;
-  color: #B999F5;
-}
-
 .skills {
+  padding: 8em 1em 8em 3em;
   background-image: url('../images/space_with_black.png');
   color: #B999F5;
-  padding: 8%;
   max-height: 15px;
-  }
+  margin-bottom: 40px;
+  text-align: center;
 
+  i {
+    font-size: 38px;
+    letter-spacing: 25px;
+  }
+}
+ 
+ @media only screen and (min-width: 992px) {
+  .skills {
+    padding: 17em 10em 10em 10em;
+    text-align: center;
+    background-image: url('../images/space_with_black.png');
+    color: #B999F5;
+    max-height: 15px;
+
+    i {
+      font-size: 60px;
+      letter-spacing: 65px;
+    }
+  }
+}
 
 .education {
   -ms-grid-row: 3;
@@ -166,20 +238,39 @@ body {
   color: white;
   min-height: 530px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
-  padding-top: 10%;
+  padding-top: 2em;
   text-align: left;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-size: 25px;
 
-  a {
-    font-size: 35px;
-  }
+    a {
+      font-size: 20px;
+    }
 
-  h1 {
-    color: white;
-    padding-bottom: 30px;
-    padding-top: 30px;
-  }
+    h1 {
+      color: white;
+      padding-bottom: 1em;
+      padding-top: 1em;
+      font-size: 20px;
+      letter-spacing: 5px;
+    }
+
+    h2, h3 {
+      font-size: 20px;
+      letter-spacing: 5px;
+      padding-left: 1em;
+    }
+
+    h2 {
+       padding-left: 0;
+    }
+
+    p {
+      font-size: 15px;
+      letter-spacing: 2px;
+      padding-left: 1.5em;
+      padding-bottom: 1.2em;
+    }
 
   img {
     width: 150px;
@@ -197,10 +288,68 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .education {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: projects;
+    color: white;
+    min-height: 530px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    padding-top: 2em;
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 25px;
+
+      a {
+        font-size: 25px;
+      }
+
+      h1 {
+        color: white;
+        padding-bottom: 3em;
+        padding-top: 3em;
+        font-size: 35px;
+      }
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      p, h3 {
+        padding-left: 1.8em;
+        font-size: 25px;
+      }
+
+    img {
+      width: 150px;
+      -webkit-transition: -webkit-transform 3s;
+      transition: -webkit-transform 3s;
+      -o-transition: transform 3s;
+      transition: transform 3s;
+      transition: transform 3s, -webkit-transform 3s;
+
+      &:hover {
+        -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+                transform: scale(1.3);
+      }
+    }
+  }
+}
+
 .h3, h3 {
   font-size: 30px;
   color: #B999F5;
+  padding-left: 1.5em;
+}
 
+.h2, h2 {
+  padding-bottom: 60px;
+  letter-spacing: 8px;
+  padding-bottom: 35px;
+  letter-spacing: 8px;
+  color: #B999F5;
 }
 
 .work {
@@ -210,15 +359,72 @@ body {
   color: white;
   min-height: 530px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
-  padding-top: 10%;
+  padding-top: 0;
   text-align: left;
-  letter-spacing: 5px;
-  font-size: 25px;
+  letter-spacing: 2px;
+  font-size: 20px;
 
+  p {
+    padding-left: 1.8em;
+    font-size: 15px;
   }
+
+  h2, h3, a {
+    font-size: 20px;
+  }
+  
+  h4 { 
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 1.2em;
+  }
+
+
+  h3 {
+    padding-top: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 992px) { 
+  .work {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: projects;
+    color: white;
+    min-height: 530px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    padding-top: 0;
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 25px;
+
+    a, h3 {
+      font-size: 25px;
+    }
+
+    h4 { 
+      font-size: 25px;
+      letter-spacing: 2px;
+      padding-left: 1.2em;
+    }
+
+    p, h3 {
+      padding-left: 1.8em;
+      font-size: 25px;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) { 
+  .education {
+    padding-top: 0em;
+  }
+}
+
 a {
+  font-size: 35px;
   color: white;
-  &:hover {
+    &:hover {
     color: purple;
     text-decoration: none;
   }
@@ -229,10 +435,14 @@ i {
   letter-spacing: 80px;
 }
 
-btn {
+#about_me_nav {
+  padding-top: 1em;
+}
+
+.btn {
   color: #232223;
-  font-size: 17px;
-  letter-spacing: 10px;
+  font-size: 15px;
+  letter-spacing: 5px;
 }
 
 .btn:not(:disabled):not(.disabled) {
@@ -243,12 +453,92 @@ btn {
     }
   }
 
+@media only screen and (min-width: 992px) {
+  .btn {
+    font-size: 17px;
+    letter-spacing: 10px;
+  }
+
+  #about_me_nav {
+    padding-top: 0;
+  }
+}
+  
 .projects,
 .about_me,
 .cv {
-  padding: 5%;
+  padding: 1em 3em 3em 3em;
   background-image: url('../images/space_with_black.png');
   background-size: 100% auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .projects,
+  .about_me,
+  .cv {
+    padding: 4em 6em 6em 6em;
+  } 
+}
+
+
+.projects {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: projects;
+  color: white;
+  min-height: 530px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  padding-top: 3em;
+  text-align: left;
+  letter-spacing: 5px;
+  font-size: 15px;
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    padding-bottom: 0.5em;
+  }
+
+  a {
+    font-size: 20px;
+    color: #B999F5;
+  }
+
+  p {
+    padding-left: 1.9em;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .projects {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: projects;
+    color: white;
+    min-height: 530px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    padding-top: 0em;
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 25px;
+  
+    h1 {
+      padding-bottom: 30px;
+      font-size: 2.5rem;
+    }
+  
+    a {
+      font-size: 25px;
+      color: #B999F5;
+    }
+  
+    p {
+      padding-left: 1.4em;
+    }
+  }
 }
 
 footer {
@@ -270,8 +560,8 @@ footer {
     display: flex;
 
     .icon-left {
-      width: 15%;
-      padding: 3%;
+      width: 11em;
+      padding: 2em;
       margin-left: 30px;
 
       .img-spaceship {
@@ -333,31 +623,12 @@ footer {
     display: none;
   }
 
-  .header {
-    min-height: 550px;
-
-    h1 {
-      margin-top: 180px;
-    }
-  }
-
   .icon-right {
     flex-direction: column;
   }
 
-  .skills {
-    padding: 11%;
-    margin-bottom: 40px;
-    text-align: justify;
-
-    i {
-      font-size: 39px;
-      letter-spacing: 30px;
-    }
-  }
-
   .education h1 {
-    padding-top: 40px;
+    padding-top: 2em;
     display: inline-block
   }
 
@@ -371,6 +642,6 @@ footer {
   .icon-git:before,
   .icon-wordpress:before  {
     font-size: 30;
-
   }
 }
+

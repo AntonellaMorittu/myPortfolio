@@ -3,13 +3,15 @@
   course: Web Developer Bootcamp
   url: https://craftacademy.se/
   dates: January - April 2018
-  description: The Bootcamp programme is focused on building web applications with advanced technologies, using Test-Driven Development and applying the Agile Software Development. Git and Github, Ruby and Rails, Javascript and JQuery, HTML, HAML, CSS, AngularJS are part of the skills I'm aquiring.
+  description: The Bootcamp programme is focused on building web applications with advanced technologies, using Test-Driven Development and applying the Agile Software Development
+
 - school: ⧨ Stockholm University (SE)
   course: One year as exchange student
   url: https://www.su.se/english/
   dates: August 2010 - June 2011
   description: Faculty of Foreign Languages, Literatures, and Linguistics
-- school: ⧨ Università degli Studi di Sassari (IT)
+
+- school: ⧨ University of Sassari (IT)
   course: Bachelor Degree in Cultural Mediation in Tourism
   url: https://www.su.se/english/
   dates: August 2010 - June 2011

@@ -1,11 +1,17 @@
-%nav.navbar.navbar-expand-lg.navbar-light
-  %a.btn.nav-item.nav-link#header_nav My Portfolio
-  %button.navbar-toggler{"aria-controls" => "navbarNav", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarNav", "data-toggle" => "collapse", :type => "button"}
+%nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  %button.navbar-toggler.ml-auto.hidden-sm-up.float-xs-right{"aria-controls" => "navbarNav", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarNav", "data-toggle" => "collapse", :type => "button"}
     %span.navbar-toggler-icon
-  #navbarNavAltMarkup.collapse.navbar-collapse
-    .navbar-nav
-  %a.btn.nav-item.nav-link#about_me_nav ABOUT ME
-  %a.btn.nav-item.nav-link#projects_nav PROJECTS
-  %a.btn.nav-item.nav-link#skills_nav SKILLS
-  %a.btn.nav-item.nav-link#cv_nav CV
-  %a.btn.nav-item.nav-link#contacts_nav CONTACTS
+  #navbarNav.collapse.navbar-collapse.nav
+    %ul.navbar-nav.ml-auto
+      %li.nav-item.active
+        %span.sr-only (current)
+      %li.nav-item
+        %a.btn.nav-item.nav-link#about_me_nav ABOUT ME
+      %li.nav-item
+        %a.btn.nav-item.nav-link#projects_nav PROJECTS
+      %li.nav-item
+        %a.btn.nav-item.nav-link#skills_nav SKILLS
+      %li.nav-item
+        %a.btn.nav-item.nav-link#cv_nav CV
+      %li.nav-item
+        %a.btn.nav-item.nav-link#contacts_nav CONTACTS
