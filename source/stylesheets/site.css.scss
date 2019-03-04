@@ -1,5 +1,13 @@
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  
+}
+
 body {
   background-color: rgba(0, 0, 0, 0.936);
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -67,7 +75,7 @@ body {
 
   p {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     color: #F5EEF8;
   }
 }
@@ -99,8 +107,8 @@ body {
   color: white;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
+  
+    -ms-grid-columns: 50% 50%;
   grid-template-columns: 50% 50%;
   min-height: 530px;
   overflow: hidden;
@@ -124,6 +132,12 @@ body {
     display: -ms-flexbox;
     display: flex;
   }
+}
+
+.profile_pic {
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 2em;
 }
 
 @media only screen and (min-width: 992px) {
@@ -159,13 +173,13 @@ body {
   }
 }
 
-.profile_pic {
-  border-radius: 50%;
-  height: 200px;
-}
+
 
 @media only screen and (min-width: 992px) {
   .profile_pic {
+    border-radius: 50%;
+    height: 200px;
+    
      -webkit-box-align: right;
         -ms-flex-align: right;
             align-items: right;
@@ -202,8 +216,16 @@ body {
   }
 }
 
+
+@media only screen and (max-width: 440px) {
+  .moon {
+    visibility: hidden;
+    display: none;
+    overflow-x: hidden;
+  }
+}
 .skills {
-  padding: 8em 1em 8em 3em;
+  padding: 8em 2em 8em 2em;
   background-image: url('../images/space_with_black.png');
   color: #B999F5;
   max-height: 15px;
@@ -238,7 +260,6 @@ body {
   color: white;
   min-height: 530px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
-  padding-top: 2em;
   text-align: left;
   letter-spacing: 2px;
   font-size: 25px;
@@ -249,8 +270,7 @@ body {
 
     h1 {
       color: white;
-      padding-bottom: 1em;
-      padding-top: 1em;
+      padding: 1em 0 1em 0;
       font-size: 20px;
       letter-spacing: 5px;
     }
@@ -476,10 +496,12 @@ i {
 .projects,
 .about_me,
 .cv {
-  padding: 1em 3em 3em 3em;
+  padding: 1em 2em 1em 2em;
   background-image: url('../images/space_with_black.png');
   background-size: 100% auto;
+  overflow-wrap: break-word;
 }
+
 
 @media only screen and (min-width: 992px) {
   .projects,
@@ -605,11 +627,9 @@ footer {
       -ms-grid-column: 1;
       grid-area: contacts;
       color: white;
-      padding: 0.5em;
+      padding: 0.1em;
       width: 100%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      
+          
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between;
@@ -623,9 +643,8 @@ footer {
       }
 
       i {
-        top: calc(50% - 10px);
-        position: relative;
-        letter-spacing: 1em;
+        letter-spacing: 0.5em;
+        vertical-align: -35%;
       }
     }
   }
@@ -712,37 +731,4 @@ footer {
   }
 }
 
-
-
-@media screen and (max-width: 376px) {
-
-  .about_me {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .moon {
-    display: none;
-  }
-
-  .icon-right {
-    flex-direction: column;
-  }
-
-  .education h1 {
-    padding-top: 2em;
-    display: inline-block
-  }
-
-  footer .contacts .icon-rigth
-
-    h1 {
-      margin-bottom: 2.5rem;
-    }
-
-  .icon-google-alt:before,
-  .icon-git:before,
-  .icon-wordpress:before  {
-    font-size: 30;
-  }
-}
 
