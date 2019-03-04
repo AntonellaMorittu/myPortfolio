@@ -273,7 +273,7 @@ body {
     }
 
   img {
-    width: 150px;
+    width: 100px;
     -webkit-transition: -webkit-transform 3s;
     transition: -webkit-transform 3s;
     -o-transition: transform 3s;
@@ -379,7 +379,6 @@ body {
     padding-left: 1.2em;
   }
 
-
   h3 {
     padding-top: 1.5em;
   }
@@ -408,6 +407,11 @@ body {
       padding-left: 1.2em;
     }
 
+    h2 {
+      font-size: 2rem;
+      letter-spacing: 5px;
+    }
+
     p, h3 {
       padding-left: 1.8em;
       font-size: 25px;
@@ -419,6 +423,11 @@ body {
   .education {
     padding-top: 0em;
   }
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 5px;
 }
 
 a {
@@ -498,12 +507,16 @@ i {
   }
 
   h2 {
-    padding-bottom: 0.5em;
+    font-size: 20px;
+    padding: 1em 0 0 0.5em;
+    color: white;
   }
 
   a {
     font-size: 20px;
     color: #B999F5;
+    letter-spacing: 2px;
+    
   }
 
   p {
@@ -529,6 +542,13 @@ i {
       padding-bottom: 30px;
       font-size: 2.5rem;
     }
+
+    h2 {
+      font-size: 20px;
+      padding: 30px 0 0 0;
+      color: white;
+      font-size: 30px;
+    }
   
     a {
       font-size: 25px;
@@ -545,7 +565,7 @@ footer {
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   color: #FFF;
   background-color: #232223;
-  font-size: 25px;
+  font-size: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,9 +580,9 @@ footer {
     display: flex;
 
     .icon-left {
-      width: 11em;
-      padding: 2em;
-      margin-left: 30px;
+      width: 12em;
+      padding: 1.5em;
+      margin-left: 0px;
 
       .img-spaceship {
         width: 100%;
@@ -581,15 +601,15 @@ footer {
     }
 
     .icon-right {
-      -ms-grid-row: 4;
+      -ms-grid-row: 3;
       -ms-grid-column: 1;
       grid-area: contacts;
       color: white;
-      padding: 5%;
+      padding: 0.5em;
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
+      
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between;
@@ -598,20 +618,101 @@ footer {
       h1 {
         top: calc(15%);
         position: relative;
+        font-size: 20px;
+        letter-spacing: 2px;
       }
 
       i {
         top: calc(50% - 10px);
         position: relative;
+        letter-spacing: 1em;
       }
     }
   }
+
   .copyright {
-    font-size: 14px;
+    font-size: 8px;
     text-align: right;
-    padding-right: 25px;
+    padding-right: 8px;
   }
 }
+
+@media only screen and (min-width: 992px) {
+  footer {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    color: #FFF;
+    background-color: #232223;
+    font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  
+    .contacts {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+  
+      .icon-left {
+        width: 11em;
+        padding: 2em;
+        margin-left: 30px;
+  
+        .img-spaceship {
+          width: 100%;
+          -webkit-transition: -webkit-transform 3s;
+          transition: -webkit-transform 3s;
+          -o-transition: transform 3s;
+          transition: transform 3s;
+          transition: transform 3s, -webkit-transform 3s;
+  
+          &:hover {
+            -webkit-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                    transform: scale(1.4);
+          }
+        }
+      }
+  
+      .icon-right {
+        -ms-grid-row: 4;
+        -ms-grid-column: 1;
+        grid-area: contacts;
+        color: white;
+        padding: 5%;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+  
+        h1 {
+          top: calc(23%);
+          position: relative;
+          font-size: 50px;
+        }
+  
+        i {
+          top: calc(50% - 10px);
+          position: relative;
+        }
+      }
+    }
+    .copyright {
+      font-size: 14px;
+      text-align: right;
+      padding-right: 25px;
+    }
+  }
+}
+
+
 
 @media screen and (max-width: 376px) {
 
