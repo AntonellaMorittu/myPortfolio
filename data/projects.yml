@@ -1,7 +1,7 @@
 ---
 - date: "2018"
   name: ⧨ My First Website
-  description: My Week 3 individual challenge, developed with Middleman and JS
+  description: My Bootcamp Week 3 individual challenge, developed with Middleman and JS
   url: https://github.com/AntonellaMorittu/myPortfolio
  
 - name: ⧨ BMI Calculator
@@ -13,7 +13,7 @@
   url: https://github.com/AntonellaMorittu/BMI-Ionic
 
 - name: ⧨ Cooper Mobile App
-  description: App developed with ionic to build the client side and Ruby on Rails API as back-end, chart implemented with AngularAPI (Ionic View App code 82ce2c06)
+  description: App developed with Ionic to build the client side and Ruby on Rails API as back-end, chart implemented with AngularAPI (Ionic View App code 82ce2c06)
   url: https://github.com/AntonellaMorittu/BMI-Ionic
 
 - name: ⧨ Pansar Augmented Watch - Quality App
@@ -21,19 +21,19 @@
   url: https://technocreatives.com
 
 - name: ⧨ LIV Platform Monitor Prototype
-  description: An electron app using D3.js to visually represents and analyse LIV Platform data 
+  description: An Electron app using D3.js to visually represent and analyse LIV Platform data 
   description2: LIV was showcased at CES 2018 and is a research vehicle that is able to learn about how you drive, your preferences, habits, and where your attention is focused
   url: https://technocreatives.com
 
 - name: ⧨ LIV Platform 4.0 Monitor
-  description: An electron app built with React Typescript for live monitoring, recording and playback of events of sensors instances
+  description: An Electron App built with React Typescript for live monitoring, recording and playback of events of sensors instances
   url: https://technocreatives.com
 
 - name: ⧨ LIV Platform 4.0 Scenario Editor
-  description: An electron app built with React Typescript for visually creating and testing stories of driving scenarios
+  description: An Electron App built with React Typescript for visually creating and testing stories of driving scenarios
   url: https://technocreatives.com
 
 - date: "2019"
   name: ⧨ HorseTech - Prototype
-  description: Riding cyber teacher Native iOS App that together with a bluetooth device tracks horse movements
+  description: Riding interactive teacher Native iOS App that together with a bluetooth device tracks horse movements and gives vocal instructions and feedback to learn correctly how to ride
   url: https://technocreatives.com
