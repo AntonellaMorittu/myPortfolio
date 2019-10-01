@@ -1,7 +1,7 @@
 html {
   width: 100%;
   height: 100%;
-   
+
 }
 
 body {
@@ -34,9 +34,9 @@ body {
 }
 
 @media only screen and (max-width: 440px) {
-  .navbar{
+  .navbar {
     position: sticky;
-  }  
+  }
 }
 
 .nav-link {
@@ -50,14 +50,14 @@ body {
 .wrapper {
   display: -ms-grid;
   -ms-grid-columns: 100%;
-      grid-template-columns: 100%;
+  grid-template-columns: 100%;
   -ms-grid-rows: 100%;
-      grid-template-rows: 100%;
-      grid-template-areas:
-  "masthead"
-  "about_me"
-  "projects"
-  "contacts";
+  grid-template-rows: 100%;
+  grid-template-areas:
+    "masthead"
+    "about_me"
+    "projects"
+    "contacts";
 }
 
 .header {
@@ -89,11 +89,11 @@ body {
   .header {
     letter-spacing: 5px;
     padding-top: 15em;
-    min-height: 1000px;
+    min-height: 1500px;
 
     h1 {
-    font-family: 'Butcherman', cursive;
-    font-size: 50px;
+      font-family: 'Butcherman', cursive;
+      font-size: 50px;
     }
 
     p {
@@ -112,8 +112,8 @@ body {
   color: white;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   display: -ms-grid;
-  
-    -ms-grid-columns: 50% 50%;
+
+  -ms-grid-columns: 50% 50%;
   grid-template-columns: 50% 50%;
   min-height: 530px;
   overflow: hidden;
@@ -129,7 +129,7 @@ body {
     font-size: 15px;
     color: #F5EEF8;
     letter-spacing: 1px;
-    
+
   }
 
   .about_images {
@@ -156,20 +156,20 @@ body {
     grid-template-columns: 50% 50%;
     min-height: 530px;
     overflow: hidden;
-  
+
     h1 {
       font-size: 2.5rem;
       padding-top: 45%;
       text-align: left;
       letter-spacing: 5px;
     }
-  
+
     p {
       font-size: 25px;
       color: #F5EEF8;
       letter-spacing: 1px;
     }
-  
+
     .about_images {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -178,26 +178,24 @@ body {
   }
 }
 
-
-
 @media only screen and (min-width: 992px) {
   .profile_pic {
     border-radius: 50%;
     height: 200px;
-    
-     -webkit-box-align: right;
-        -ms-flex-align: right;
-            align-items: right;
+
+    -webkit-box-align: right;
+    -ms-flex-align: right;
+    align-items: right;
     -webkit-transition: -webkit-transform 3s;
     transition: -webkit-transform 3s;
     -o-transition: transform 3s;
     transition: transform 3s;
     transition: transform 3s, -webkit-transform 3s;
-  
+
     &:hover {
       -webkit-transform: scale(1.3);
-          -ms-transform: scale(1.3);
-              transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
     }
   }
 }
@@ -206,8 +204,8 @@ body {
   z-index: 1;
   border-radius: 1%;
   -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
+  -ms-flex-align: right;
+  align-items: right;
   -webkit-transition: -webkit-transform 3s;
   transition: -webkit-transform 3s;
   -o-transition: transform 3s;
@@ -216,11 +214,10 @@ body {
 
   &:hover {
     -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
-
 
 @media only screen and (max-width: 440px) {
   .moon {
@@ -229,6 +226,7 @@ body {
     overflow-x: hidden;
   }
 }
+
 .skills {
   padding: 8em 2em 8em 2em;
   background-image: url('../images/space_with_black.png');
@@ -242,8 +240,8 @@ body {
     letter-spacing: 25px;
   }
 }
- 
- @media only screen and (min-width: 992px) {
+
+@media only screen and (min-width: 992px) {
   .skills {
     padding: 17em 10em 10em 10em;
     text-align: center;
@@ -269,49 +267,50 @@ body {
   letter-spacing: 2px;
   font-size: 25px;
 
-    a {
-      font-size: 20px;
-    }
+  a {
+    font-size: 20px;
+  }
 
-    h1 {
-      color: white;
-      padding: 1em 0 1em 0;
-      font-size: 20px;
-      letter-spacing: 5px;
-    }
+  h1 {
+    color: white;
+    padding: 1em 0 1em 0;
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
 
-    h2, h3 {
-      font-size: 20px;
-      letter-spacing: 5px;
-      padding-left: 1em;
-    }
+  h2,
+  h3 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-left: 1em;
+  }
 
-    h2 {
-       padding-left: 0;
-    }
+  h2 {
+    padding-left: 0;
+  }
 
-    p {
-      font-size: 15px;
-      letter-spacing: 2px;
-      padding-left: 1.5em;
-      padding-bottom: 1.2em;
-    }
+  p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 1.5em;
+    padding-bottom: 1.2em;
+  }
 
-    img {
-      margin-top: 2em;
-      width: 100px;
-      -webkit-transition: -webkit-transform 3s;
-      transition: -webkit-transform 3s;
-      -o-transition: transform 3s;
-      transition: transform 3s;
-      transition: transform 3s, -webkit-transform 3s;
+  img {
+    margin-top: 2em;
+    width: 100px;
+    -webkit-transition: -webkit-transform 3s;
+    transition: -webkit-transform 3s;
+    -o-transition: transform 3s;
+    transition: transform 3s;
+    transition: transform 3s, -webkit-transform 3s;
 
-      &:hover {
-        -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-                transform: scale(1.3);
-      }
+    &:hover {
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
     }
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -327,25 +326,26 @@ body {
     letter-spacing: 5px;
     font-size: 25px;
 
-      a {
-        font-size: 25px;
-      }
+    a {
+      font-size: 25px;
+    }
 
-      h1 {
-        color: white;
-        padding-bottom: 3em;
-        padding-top: 3em;
-        font-size: 35px;
-      }
+    h1 {
+      color: white;
+      padding-bottom: 3em;
+      padding-top: 3em;
+      font-size: 35px;
+    }
 
-      h2 {
-        font-size: 2rem;
-      }
+    h2 {
+      font-size: 2rem;
+    }
 
-      p, h3 {
-        padding-left: 1.8em;
-        font-size: 25px;
-      }
+    p,
+    h3 {
+      padding-left: 1.8em;
+      font-size: 25px;
+    }
 
     img {
       width: 150px;
@@ -357,20 +357,22 @@ body {
 
       &:hover {
         -webkit-transform: scale(1.3);
-            -ms-transform: scale(1.3);
-                transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
       }
     }
   }
 }
 
-.h3, h3 {
+.h3,
+h3 {
   font-size: 30px;
   color: #B999F5;
   padding-left: 1.5em;
 }
 
-.h2, h2 {
+.h2,
+h2 {
   padding-bottom: 60px;
   letter-spacing: 8px;
   padding-bottom: 35px;
@@ -395,11 +397,13 @@ body {
     font-size: 15px;
   }
 
-  h2, h3, a {
+  h2,
+  h3,
+  a {
     font-size: 20px;
   }
-  
-  h4 { 
+
+  h4 {
     font-size: 20px;
     letter-spacing: 2px;
     padding-left: 1.2em;
@@ -410,7 +414,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 992px) { 
+@media only screen and (min-width: 992px) {
   .work {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
@@ -423,11 +427,12 @@ body {
     letter-spacing: 5px;
     font-size: 25px;
 
-    a, h3 {
+    a,
+    h3 {
       font-size: 25px;
     }
 
-    h4 { 
+    h4 {
       font-size: 25px;
       letter-spacing: 2px;
       padding-left: 1.2em;
@@ -438,14 +443,15 @@ body {
       letter-spacing: 5px;
     }
 
-    p, h3 {
+    p,
+    h3 {
       padding-left: 1.8em;
       font-size: 25px;
     }
   }
 }
 
-@media only screen and (min-width: 992px) { 
+@media only screen and (min-width: 992px) {
   .education {
     padding-top: 0em;
   }
@@ -459,7 +465,8 @@ h1 {
 a {
   font-size: 35px;
   color: white;
-    &:hover {
+
+  &:hover {
     color: purple;
     text-decoration: none;
   }
@@ -481,12 +488,13 @@ i {
 }
 
 .btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    color: #232223;
-    &:hover {
-      color: purple;
-    }
+  cursor: pointer;
+  color: #232223;
+
+  &:hover {
+    color: purple;
   }
+}
 
 @media only screen and (min-width: 992px) {
   .btn {
@@ -498,7 +506,7 @@ i {
     padding-top: 0;
   }
 }
-  
+
 .projects,
 .about_me,
 .cv {
@@ -510,11 +518,12 @@ i {
 
 
 @media only screen and (min-width: 992px) {
+
   .projects,
   .about_me,
   .cv {
     padding: 4em 6em 6em 6em;
-  } 
+  }
 }
 
 
@@ -544,7 +553,7 @@ i {
     font-size: 20px;
     color: #B999F5;
     letter-spacing: 2px;
-    
+
   }
 
   p {
@@ -565,7 +574,7 @@ i {
     text-align: left;
     letter-spacing: 5px;
     font-size: 25px;
-  
+
     h1 {
       padding-bottom: 30px;
       font-size: 2.5rem;
@@ -577,12 +586,12 @@ i {
       color: white;
       font-size: 30px;
     }
-  
+
     a {
       font-size: 25px;
       color: #B999F5;
     }
-  
+
     p {
       padding-left: 1.4em;
     }
@@ -599,8 +608,8 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 
   .contacts {
     display: -webkit-box;
@@ -622,8 +631,8 @@ footer {
 
         &:hover {
           -webkit-transform: scale(1.4);
-              -ms-transform: scale(1.4);
-                  transform: scale(1.4);
+          -ms-transform: scale(1.4);
+          transform: scale(1.4);
         }
       }
     }
@@ -635,10 +644,10 @@ footer {
       color: white;
       padding: 0.1em;
       width: 100%;
-          
+
       -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
       font-family: 'Fira Sans Extra Condensed', sans-serif;
 
       h1 {
@@ -677,19 +686,19 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  
+    -ms-flex-direction: column;
+    flex-direction: column;
+
     .contacts {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-  
+
       .icon-left {
         width: 11em;
         padding: 2em;
         margin-left: 30px;
-  
+
         .img-spaceship {
           width: 100%;
           -webkit-transition: -webkit-transform 3s;
@@ -697,15 +706,15 @@ footer {
           -o-transition: transform 3s;
           transition: transform 3s;
           transition: transform 3s, -webkit-transform 3s;
-  
+
           &:hover {
             -webkit-transform: scale(1.4);
-                -ms-transform: scale(1.4);
-                    transform: scale(1.4);
+            -ms-transform: scale(1.4);
+            transform: scale(1.4);
           }
         }
       }
-  
+
       .icon-right {
         -ms-grid-row: 4;
         -ms-grid-column: 1;
@@ -717,16 +726,16 @@ footer {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         font-family: 'Fira Sans Extra Condensed', sans-serif;
-  
+
         h1 {
           top: calc(23%);
           position: relative;
           font-size: 50px;
         }
-  
+
         i {
           top: calc(50% - 10px);
           position: relative;
@@ -738,6 +747,7 @@ footer {
         }
       }
     }
+
     .copyright {
       font-size: 14px;
       text-align: right;
@@ -745,5 +755,3 @@ footer {
     }
   }
 }
-
-
