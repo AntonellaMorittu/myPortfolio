@@ -12,7 +12,7 @@ describe 'Index Page', type: :feature do
     visit '/'
     expect(page).to have_selector 'footer'
     within 'footer' do
-      expect(page).to have_content 'Copyright © 2018 Antonella Morittu'
+      expect(page).to have_content 'Copyright © 2020 Antonella Morittu'
     end
   end
 
