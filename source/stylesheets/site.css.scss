@@ -243,7 +243,7 @@ body {
 
 @media only screen and (min-width: 992px) {
   .skills {
-    padding: 17em 10em 10em 10em;
+    padding: 10em;
     text-align: center;
     background-image: url('../images/space_with_black.png');
     color: #B999F5;
@@ -693,6 +693,7 @@ footer {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      align-items: center;
 
       .icon-left {
         width: 11em;
